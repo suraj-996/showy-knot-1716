@@ -67,3 +67,8 @@ show4.addEventListener("click", () => {
         i++
     }
 })
+
+let search_btn=document.getElementsByClassName("search");
+search_btn.addEventListener("click", () => {
+    window.location.href="search.html"
+})
