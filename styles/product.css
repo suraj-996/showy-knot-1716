@@ -55,7 +55,7 @@ p {
 #para2 {
     color: #15372C; 
     font-size: 19px; 
-    margin-top: -20px;
+    margin-top: 20px;
 }
 h1 {
     color: #15372C; 
@@ -107,6 +107,7 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 50px;
+    margin-bottom: 120px;
 }
 
 #company_data {
@@ -127,14 +128,20 @@ h2 {
     font-size: 24px;
     color: #15372C;
     font-family: "Untitled Serif",Georgia,serif;;
+    margin-top: 30px;
 }
 #company_description {
     color: #15372C;
     font-size: 15px;
-    margin-top: -6px;
+    margin-top: 26px;
+    margin-bottom: 26px;
     font-family: Untitled Sans,Arial,Helvetica,sans-serif;
     line-height: 160%;
     letter-spacing: 0.2px;
+}
+#comapny_info{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #help_link {
     color: green;
