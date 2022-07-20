@@ -1,0 +1,158 @@
+ 
+ /* first and second div style */
+ #First_Row {
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+#First_image_desc, #First_image {
+    height: 700px;
+    width: 50%;
+    text-align: center;
+    
+}
+#First_image_desc {
+    align-items: center;
+    text-align: center;
+}
+#First_image_desc_inner_div {
+    height: 700px;
+    width: 63%;
+    margin: auto;
+    margin-top: 50px;
+}
+#img1 {
+    height: 700px;
+    width: 100%;
+}
+strong {
+    color: #15372C;
+    font: 18px;
+}
+#learn_more_button {
+    color: #FFFFFF;
+    background-color: #008561;
+    font: 15px;
+    height: 50px;
+    width: 40%;
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: none;
+    margin: auto;
+    margin-left: -300px;
+    margin-top: 10px;
+}
+p {
+    text-align: left;
+    line-height: 35px;
+    font-family: Untitled Sans,Arial,Helvetica,sans-serif;
+}
+#para1 {
+    color: #008561; 
+    font-size: 18px;
+}
+#para2 {
+    color: #15372C; 
+    font-size: 19px; 
+    margin-top: -20px;
+}
+h1 {
+    color: #15372C; 
+    font-size: 75px; 
+    text-align: left;
+    margin-top: -8px;
+    font-family: "Untitled Serif",Georgia,serif;
+}
+h2 {
+    color: #15372C; 
+    font-size: 57px; 
+    text-align: left;
+    margin-top: -8px;
+    font-family: "Untitled Serif",Georgia,serif;
+}
+
+
+/* oraganization heading */
+#heading_of_organizaion {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+#help_organization_heading {
+    color: #15372C; 
+    font-size: 45px; 
+    text-align: left;
+    margin-top: -8px;
+    margin-bottom: 50px;
+    font-family: "Untitled Serif",Georgia,serif;
+}
+
+/* help organizaiont */
+#organization_para {
+    height: 200px;
+    width: 45%;
+}
+#organization_list {
+    height: auto;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 50px;
+}
+
+#company_data {
+    height: 530px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#organiztion_image {
+    height: 273px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#company_image {
+    height: 273px;
+    width: 100%;
+}
+#company_name {
+    font-size: 24px;
+    color: #15372C;
+    font-family: "Untitled Serif",Georgia,serif;;
+}
+#company_description {
+    color: #15372C;
+    font-size: 15px;
+    margin-top: -6px;
+    font-family: Untitled Sans,Arial,Helvetica,sans-serif;
+    line-height: 160%;
+    letter-spacing: 0.2px;
+}
+#help_link {
+    color: green;
+    text-decoration: underline;
+}
+
+
+
+/* Media queries */
+@media all and (min-width: 600px) and (max-width: 1200px){
+    #First_Row{
+        display: block;
+    }
+    #img1 {
+        height: 400px;
+        width: 100%;
+    }
+    #organization_list{
+        display: block;
+    }
+}   
+
