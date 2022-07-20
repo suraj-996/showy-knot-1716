@@ -160,7 +160,7 @@ let navbar = () => {
                 <p>Greenhouse celebrates Pride</p>
                 <h3>Buy a shirt, help an LGBTQ+ teen</h3>
                 <h4>We’re shining a spotlight on the LGBTQ+ community with our new Pride t-shirt. 100% of the proceeds are going to support The Trevor Project and the Ali Forney Center.</h4>
-                <a href="">Get your Pride shirt</a>
+                <a href="./product.html">Get your Pride shirt</a>
             </div>
         </div>
     </div>
