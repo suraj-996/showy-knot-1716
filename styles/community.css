@@ -6,7 +6,7 @@
 #main {
     display: flex;
     gap: 200px;
-
+    padding-top: 100px;
 }
 
 img {

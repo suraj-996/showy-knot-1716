@@ -4,6 +4,7 @@
     height: 700px;
     width: 100%;
     display: flex;
+    padding-top: 100px;
 }
 #First_image_desc, #First_image {
     height: 700px;
