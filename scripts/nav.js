@@ -72,3 +72,7 @@ let search_btn=document.getElementsByClassName("search");
 search_btn.addEventListener("click", () => {
     window.location.href="search.html"
 })
+
+import footer from "../components/footer.js";
+
+document.getElementById("foot").innerHTML=footer();
