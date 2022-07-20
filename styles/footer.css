@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#section{
+    background: #113228;
+}
+#section>div{
+    display: flex;
+    margin: auto;
+    width: 83%;
+    justify-content: space-between;
+}
+#section>div>div:first-child{
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#section>div>div:first-child>h2{
+    font-size: 80px;
+    line-height: 105%;
+    font-weight: 400;
+    /* font-family: "Untitled Serif",Georgia,serif; */
+    color: #fff;
+}
+#section>div>div:first-child>a{
+    background-color: #3574d6;
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid #3574d6;
+    display: inline-block;
+    font-family: Untitled Sans,Arial,Helvetica,sans-serif;
+    font-size: 1.6rem;
+    line-height: 1;
+    /* padding: 5px 5px 5px 5px ; */
+    padding: 12px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .15s ease;
+    -webkit-appearance: none;
+    margin-top: 50px;
+}
+#section>div>div:last-child{
+    width: 35%;
+    
+}
+#footer{
+    background-color: #15372c;
+    color: #fff;
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+#container{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    /* padding-top: 80px; */
+    padding-bottom: 50px;
+}
+
+.content>ul{
+    list-style-type: none;
+}
+.content>h3{
+    color: #4cb398;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.content>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+   display: block;
+   margin-bottom: 13px;
+   margin-top: 13px;
+}
+.content>div>input{
+    display: block;
+}
+.content>button{
+    border-radius: 25px;
+    font-family: Untitled Sans,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    padding: 12px 30px;
+    border-color: #fff!important;
+    box-shadow: none!important;
+    margin-top: 20px;
+    background-color: #15372c;
+    color: #fff;
+}
+.select{
+    margin-top: 65px;
+}
+.select>select{
+    color: #fff;
+    background-color: #15372c;
+    display: block;
+    border-color: #fff!important;
+    height: 50px!important;
+    border-radius: 8px!important;
+    line-height: 1.2!important;
+    text-indent: 0!important;
+    width: 100%;
+    /* background: #fff url("	https://www.greenhouse.io/assets/svg/chevron-down.svg") right 16px center no-repeat!important; */
+    border: 1px solid #ccc;
+    font-size: 16px; 
+    margin-top: 10px;
+    
+}
+#container>.content:last-child{
+    width: 22%;
+}
+.content>h2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.content>p{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.email>input{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+.social{
+    margin-top: 60px;
+}
+.social>a{
+    display: inline-block;
+}
+.social>a>img{
+    height: 30px;
+    margin-right: 13px;
+}
+#copyright{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+#copyright>p{
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.links>ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.links>ul>li>a{
+    color: white;
+    font-size: 15px;
+    margin-right: 32px;
+    /* margin-left: 12px; */
+    
+}
