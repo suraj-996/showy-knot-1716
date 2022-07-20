@@ -181,3 +181,8 @@ organizationList.map((element) => {
 
   organization_data.append(company_data);
 });
+
+
+import footer from "../components/footer.js";
+
+document.getElementById("foot").innerHTML=footer();

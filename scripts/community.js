@@ -68,3 +68,7 @@ show4.addEventListener("click", () => {
         i++
     }
 })
+
+import footer from "../components/footer.js";
+
+document.getElementById("foot").innerHTML=footer();
