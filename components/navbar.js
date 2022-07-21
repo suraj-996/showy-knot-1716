@@ -2,7 +2,7 @@ let navbar = () => {
     return `
     <div id="nav">
         <div id="left-nav">
-            <a href="Homepage.html" class="logo">
+            <a href="index.html" class="logo">
                 <img src="https://www.greenhouse.io/assets/svg/logo.svg" alt="">
             </a>
             <ul>
