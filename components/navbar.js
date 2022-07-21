@@ -142,7 +142,7 @@ let navbar = () => {
                         <a href="">Company</a>
                     </li>
                     <li>
-                        <a href="">Careers</a>
+                        <a href="career.html">Careers</a>
                     </li>
                     <li>
                         <a href="">Press & awards</a>
