@@ -68,10 +68,11 @@ show4.addEventListener("click", () => {
     }
 })
 
-let search_btn=document.getElementsByClassName("search");
+let search_btn=document.getElementById("search-btn")
 search_btn.addEventListener("click", () => {
     window.location.href="search.html"
 })
+
 
 import footer from "../components/footer.js";
 

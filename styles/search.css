@@ -1,0 +1,86 @@
+#search{
+    padding-top: 200px;
+    background-color: #15372C;
+    height: 500px;
+}
+#search>input{
+    width: 70%;
+    height: 70px;
+    display: block;
+    margin: auto;
+    line-height: 118%;
+    color: #fff;
+    font-size: 40px;
+    background-color: #15372C;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #4cb398;
+    background-image: url("https://www.greenhouse.io/assets/svg/arrow-thin.svg");
+    background-repeat: no-repeat;
+    color: #fff;
+    background-position: right;
+}   
+#search_result{
+    width: 70%;
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    overflow: auto;
+    max-height: 250px;
+    overflow: auto;
+}
+#search_result>p{
+    padding: 10px;
+    font-size: 20px;
+}
+#results{
+    width: 70%;
+    margin: auto;
+}
+.found{
+    font-size: 45px;
+    font-family: "Untitled Serif";
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.int{
+    margin-bottom: 20px;
+    font-size: 45px;
+    color: #15372C;
+}
+
+#integration{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#integration_result>div:first-child{
+    width: 200px;
+    height: 200px;
+    background-color: #C9F0E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#integration_result>div>img{
+    width: 150px;
+}
+.para{
+    width: 200px;
+}
+.para>p:first-child{
+    font-size: 20px;
+    color: #15372C;
+    padding-bottom: 10px;
+}
+.para>p:last-child{
+    font-size: 16px;
+    word-spacing: 2px;
+    color: #15372C;
+    padding-bottom: 50px;
+    font-family: cursive;
+}
+.career{
+    font-size: 40px;
+    margin-bottom: 60px;
+}

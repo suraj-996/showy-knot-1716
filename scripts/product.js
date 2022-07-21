@@ -68,6 +68,11 @@ show4.addEventListener("click", () => {
     }
 });
 
+let search_btn=document.getElementById("search-btn")
+search_btn.addEventListener("click", () => {
+    window.location.href="search.html"
+})
+
 let organizationList = [
   {
     image:
