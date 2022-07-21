@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+#main {
+  display: flex;
+  gap: 100px;
+  margin-left: 120px;
+}
+#main > div:first-child {
+  margin-top: 150px;
+}
+img {
+  width: 100%;
+}
+#main > div > p:nth-child(1) {
+  border: 1px solid transparent;
+  font-size: 20px;
+  position: absolute;
+  top: 15%;
+  opacity: 0.8;
+  color: #15372c;
+}
+#main > div > p:nth-child(2) {
+  border: 1px solid transparent;
+  font-size: 70px;
+  opacity: 0.8;
+}
+#main > div > p:nth-child(3) {
+  border: 1px solid transparent;
+  font-size: 15px;
+  position: absolute;
+  top: 58%;
+  width: 500px;
+  line-height: 2;
+  opacity: 0.8;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* open roles css */
+
+#mid {
+  display: flex;
+  margin-top: 500px;
+}
+#mid > p {
+  border: 1px solid transparent;
+  font-size: 100px;
+  position: absolute;
+  top: 150%;
+  margin-left: 100px;
+}
+#firstlb {
+  margin-left: 100px;
+  border: 1px solid transparent;
+}
+#secondlb {
+  border: 1px solid transparent;
+  margin-left: 30px;
+}
+#department {
+  margin-left: 100px;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+#location {
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+#apply {
+  margin-left: 550px;
+  padding: 10px;
+  width: 150px;
+  border-radius: 15px;
+  background-color: #126a4e;
+  color: #fff;
+  cursor: pointer;
+}
+#apply:hover {
+  background-color: #164637;
+}
+#clear {
+  border: 1px solid transparent;
+  width: 60px;
+  height: 50px;
+  margin-top: 8px;
+  margin-left: 25px;
+  text-decoration: underline;
+  color: #00857a;
+  cursor: pointer;
+}
+#clear:hover {
+  text-decoration: none;
+}
+
+#last {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+#last > div {
+  margin-bottom: 100px;
+}
+
+.name {
+  display: flex;
+  gap: 350px;
+}
+#last > p {
+  border: 1px solid transparent;
+  margin-bottom: 30px;
+  font-size: 43px;
+  margin-top: 50px;
+}
+.name > div > p {
+  border: 1px solid transparent;
+  margin-top: 20px;
+  color: #00857a;
+  line-height: 2.5;
+}
+.name > div > h4 {
+  border: 1px solid transparent;
+  font-weight: 100;
+  font-size: 18px;
+  opacity: 0.9;
+}
