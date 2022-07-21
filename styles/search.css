@@ -47,6 +47,7 @@
     margin-bottom: 20px;
     font-size: 45px;
     color: #15372C;
+    margin-top: 70px;
 }
 
 #integration{
@@ -80,7 +81,24 @@
     padding-bottom: 50px;
     font-family: cursive;
 }
-.career{
+#career{
     font-size: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+}
+#job_data>div{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #008561;;
+}
+#job_data>div>p:nth-child(1){
+    font-size: 25px;
+}
+#job_data>div>p:nth-child(2){
+    font-size: 17px;
+    color: #008561;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#job_data>div>p:nth-child(3){
+    /* margin-bottom: 100px; */
 }
