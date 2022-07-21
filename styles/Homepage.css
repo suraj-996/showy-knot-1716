@@ -8,7 +8,7 @@ body{
     width: 100%;
     display: grid;
     font-family: "Untitled Serif",Georgia,serif;
-  
+    padding-top: 100px;
 }
 
 .cont_box1{
