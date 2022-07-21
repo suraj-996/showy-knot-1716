@@ -12,9 +12,13 @@ body{
 }
 
 .cont_box1{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     /* border: 1px solid green; */
+}
+.cont_box1>div{
+    width: 100%;
 }
  
 .cont_box1>div>img{
@@ -356,11 +360,7 @@ border-bottom: none;
     gap: 80px;
     
 }
-.cont_box1>div:nth-child(12)>div>div{
-    /* border: 1px solid red; */
-
-   
-}
+ 
 .cont_box1>div:nth-child(12)>div>div>img{
     width: 100%;
 }
