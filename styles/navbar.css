@@ -79,7 +79,7 @@
     margin-right: 18px;
     margin-left: 20px;
 }
-.search{
+#search-btn{
     cursor: pointer;
     border: 0;
     margin-top: 10px;

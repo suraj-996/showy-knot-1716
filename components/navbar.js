@@ -30,7 +30,7 @@ let navbar = () => {
                     <a href="#">Sign Up</a>
                 </li>
                 <li>
-                    <button class="search">
+                    <button id="search-btn">
                     
                     </button>
                 </li>
