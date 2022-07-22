@@ -127,3 +127,20 @@ img {
   font-size: 18px;
   opacity: 0.9;
 }
+#img1{
+width:100%;
+}
+#img1>p{
+  text-decoration: underline;
+  cursor: pointer;
+}
+#img1>p:hover{
+  text-decoration: none;
+}
+#img2{
+  width:100%;
+}
+#img2>p{
+  text-decoration: underline;
+  cursor: pointer;
+}
