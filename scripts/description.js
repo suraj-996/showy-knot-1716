@@ -63,6 +63,8 @@ function addtocart(element) {
   window.location.href = "cart.html";
 }
 
+
+//count cart data length
 let cartData = JSON.parse(localStorage.getItem("cartDetail")) || [];
 let length = cartData.length;
-document.querySelector(".cartItems").innerText = length;
+document.querySelector(".cartItems").innerText = `(${length})`;
