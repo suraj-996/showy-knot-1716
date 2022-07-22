@@ -1,0 +1,126 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#sigin{
+    /* display: flex; */
+    width: 100%;
+    height:  100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    /* overflow: hidden; */
+    
+}
+#sigin>div{
+   
+    width: 100%;
+}
+.img{
+    background-color: #efefef;
+}
+.img>div{
+  width: 100%;
+ /* height: 100vh; */
+}
+.img>div>img{
+    width: 130%;
+    /* height: 40%; */
+     
+}
+#register-form>div{
+     width: 60%;
+    /* border: 1px solid orange; */
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 140px;
+    margin-bottom: -60px;
+}
+#register-form>h1{
+    font-size: 60px;
+    color: #15372c;
+    margin-left: 100px;
+    margin-top: 100px;
+    /* font-family: Untitled Serif, serif; */
+}
+#register-form>h1~h1{
+     
+    margin-top: -50px;
+    margin-bottom: -120px;
+}
+#form_data{
+    /* border: 1px solid red; */
+    width: 57%;
+    /* margin: auto; */
+    margin-left: 100px;
+    margin-top: 150px;
+    
+}
+#form_data>input{
+    padding: 15px 100px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    /* margin-left: 100px; */
+}
+#form_data>::placeholder{
+    color: #15372c;
+    font-size: 18px;
+    
+}
+
+#form_data>div{
+    display: flex;
+    /* margin: auto; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   
+    margin-top: 20px;
+    justify-content: space-between;
+    
+     
+}
+
+#form_data>div>button{
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: white;
+    background-color: #3574d6;
+    border: none;
+    cursor: pointer;
+}
+#form_data>div>button:hover{
+    background-color: #0c58d1;
+}
+#form_data>div>h2{
+    margin-left: 20px;
+     
+}
+
+#form_data>div>div{
+    display: flex;
+    /* border: 1px solid green; */
+    width: 55%;
+    height: 40px;
+    margin: auto;
+     /* margin-left: 30px; */
+     align-items: center;
+     justify-content: center;
+     justify-content: space-around;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#form_data>div>div:hover{
+    cursor: pointer;
+}
+#form_data>div>div>img{
+    /* margin-left: 8px; */
+    width: 25px;
+    height: 25px;
+
+}
+#form_data>div>div>a{
+    text-decoration: none;
+    color: #15372c;
+}

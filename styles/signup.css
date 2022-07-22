@@ -1,0 +1,90 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#signup{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+#signup>div:first-child{
+    background-color:  #f5f5f5 ;
+}
+#signup>div:first-child>div{
+   
+    /* border: 1px solid yellow; */
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+#signup>div:first-child>div>h1{
+    font-size: 60px;
+    color: #15372c;
+}
+#signup>div:first-child>div>p{
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    color: #15372c;
+}
+#signup>div:first-child>div>ul>li{
+    line-height: 45px;
+    color: #15372c;
+}
+#signup>div:first-child>div>h3{
+    color: #15372c;
+}
+#signup>div:last-child{
+    background-color: #d2ebe5;
+}
+#register>form{
+   
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+     
+}
+#register>form>p{
+    margin-bottom: 5px;
+    color: #15372c;
+}
+#register>form>input{
+    padding: 15px 100px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 2px solid gray; 
+}
+
+#register>form>::placeholder{
+ 
+font-size: 20px;
+
+}
+#register>form>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#register>form>div>button{
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: white;
+    background-color: #008561;
+    border: none;
+    cursor: pointer;
+   
+}
+#register>form>div>button:hover{
+    background-color: #0a5844;
+}
+#register>form>div>h4{
+    color: #15372c;
+}
+#register>form>div>h4>a{
+    text-decoration: none;
+}
