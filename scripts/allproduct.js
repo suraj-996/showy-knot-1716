@@ -1,3 +1,9 @@
+// import navbar and footer
+import {productPageNavbar, productPageFooter} from "../components/productnav.js";
+document.querySelector("header").innerHTML = productPageNavbar();
+document.querySelector("footer").innerHTML = productPageFooter();
+
+
 let allProducts = JSON.parse(localStorage.getItem("discription")) || [];
 
 
@@ -5,24 +11,28 @@ let deskData = [
     {
         image : "https://images.brilliantmade.com/uploads/variant_photo/photo/308082/xlarge_3.jpg",
         name : "Izard Mug",
-        price : "$6"
+        price : 6
     },
     {
         image : "https://images.brilliantmade.com/uploads/variant_photo/photo/324904/xlarge_1.jpg",
         name : "Classic Flex Notebook",
-        price : "$8.25"
+        price : 8.25
     },
     {
         image : "https://images.brilliantmade.com/uploads/variant_photo/photo/189297/xlarge_white.jpg",
         name : "Get Clicker Pen",
-        price : "$2"
+        price : 2
     },
 ];
+
+deskData.forEach((a)=>{
+    a.currency = "$"
+});
+//console.log(deskData);
 let container = document.getElementById("desk_product");
 
 deskData.map(element => {
     let linkData = document.createElement("a");
-    linkData.setAttribute("href", "cart.html");
     linkData.setAttribute("id", "cartDataLink")
 
     let productData = document.createElement("div");
@@ -33,6 +43,9 @@ deskData.map(element => {
 
     let image = document.createElement("img");
     image.src = element.image;
+    image.addEventListener("click", function(){
+        disc(element);
+    });
 
     productImg.append(image);
 
@@ -59,25 +72,27 @@ let onTheGoData = [
     {
         image : "https://images.brilliantmade.com/uploads/variant_photo/photo/185426/xlarge_Umbrella.jpg",
         name : "Crest Umbrella",
-        price : "$40"
+        price : 40
     },
     {
         image : "https://images.brilliantmade.com/uploads/variant_photo/photo/189304/xlarge_Dopp_Kit.jpg",
         name : "Drop Kit",
-        price : "$45"
+        price : 45
     },
     {
         image : "https://images.brilliantmade.com/uploads/variant_photo/photo/189291/xlarge_Tag2.jpg",
         name : "Lusury Leather Tag",
-        price : "$20"
+        price : 20
     }
-]
+];
+onTheGoData.forEach((a)=>{
+    a.currency = "$"
+});
 
 let container2 = document.getElementById("on_the_go_product");
 
 onTheGoData.map(element => {
     let linkData = document.createElement("a");
-    linkData.setAttribute("href", "cart.html");
     linkData.setAttribute("id", "cartDataLink")
 
     let productData = document.createElement("div");
@@ -88,6 +103,9 @@ onTheGoData.map(element => {
 
     let image = document.createElement("img");
     image.src = element.image;
+    image.addEventListener("click", function(){
+        disc(element);
+    });
 
     productImg.append(image);
 
@@ -114,7 +132,7 @@ let wearablesData = [
     {
         image : "https://images.brilliantmade.com/uploads/variant_photo/photo/415158/xlarge_1.jpg",
         name : "Plant love, grow pride t-shirt",
-        price : "$25"
+        price : 25
     },
     {
         image : "https://images.brilliantmade.com/uploads/variant_photo/photo/189300/xlarge_Ankle_Sock_C.jpg",
@@ -136,17 +154,17 @@ let wearablesData = [
         name : "Dress Socks - Bars",
         price : "Out of Stock"
     }
-]
+];
+wearablesData.forEach((a)=>{
+    a.currency = "$"
+});
 
 let container3 = document.getElementById("wearables_product");
 
 wearablesData.map(element => {
     let linkData = document.createElement("a");
-    // linkData.setAttribute("href", "cart.html");
     linkData.setAttribute("id", "cartDataLink");
-    linkData.addEventListener("click", function() {
-        disc(element);
-    })
+    
 
     let productData = document.createElement("div");
     productData.setAttribute("id", "product_data");
@@ -156,6 +174,9 @@ wearablesData.map(element => {
 
     let image = document.createElement("img");
     image.src = element.image;
+    image.addEventListener("click", function(){
+        disc(element);
+    });
 
     productImg.append(image);
 
@@ -178,9 +199,9 @@ wearablesData.map(element => {
 });
 
 
-function disc(el) {
-    console.log(allProducts);
-    allProducts.push(el);
-    localStorage.setItem("discriptionn", JSON.stringify(allProducts));
-    window.location.href = "dicription.html";
+function disc(element) {
+    //console.log(allProducts);
+    allProducts.push(element);
+    localStorage.setItem("discription", JSON.stringify(allProducts));
+    window.location.href = "./description.html";
 }
