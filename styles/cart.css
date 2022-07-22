@@ -1,0 +1,100 @@
+#container {
+  height: auto;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+    "a a c"
+    "b b d";
+  grid-auto-rows: auto;
+  gap: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.headtotal {
+  grid-area: a;
+  height: 100px;
+  border-radius: 5px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;; */
+  background-color: white;
+}
+
+#container > div:nth-child(1) > h2 {
+  margin-left: 20px;
+}
+
+.mypro {
+  grid-area: b;
+  /* border: 1px solid blue; */
+  padding: 5px;
+  margin-top: -170px;
+  background-color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.mypro > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#container > div:nth-child(2) > div > div > img {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.nap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  margin-right: 10px;
+}
+
+.omodi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80px;
+  padding: 10px;
+}
+
+#container > div:nth-child(3) {
+  grid-area: c;
+  padding: 10px;
+  background-color: white;
+}
+
+#container > div:nth-child(3) > h2 {
+  margin-left: 20px;
+}
+
+#container > div:nth-child(3) > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#container > div:nth-child(3) > button {
+  padding: 15px 80px 15px 80px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  background-color: orangered;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+}
+#container > div:nth-child(3) > button:hover {
+  background-color: rgba(230, 48, 16, 0.966);
+}
+#container > div:nth-child(4) {
+  grid-area: d;
+}
+
+#order-summary-box {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}

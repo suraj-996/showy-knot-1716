@@ -1,0 +1,76 @@
+#container {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+#left {
+  height: 450px;
+  width: 40%;
+  margin: auto;
+  margin-right: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#left:hover {
+  background-color: aliceblue;
+}
+#right {
+  height: 450px;
+  width: 40%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#right:hover {
+  background-color: whitesmoke;
+}
+.img {
+  height: 450px;
+  width: 100%;
+}
+img:hover {
+  cursor: pointer;
+}
+#currency_price_box {
+  display: flex;
+  justify-content: center;
+  margin: -20px 0px -20px 0px;
+}
+
+#add_to_cart_box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.addcart {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ff7e33;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+h2 {
+  color: teal;
+  text-align: center;
+}
+p {
+  color: grey;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/checkout.css" />
+    <link rel="stylesheet" href="./styles/productnav.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!-- import navbar here -->
+    </header>
+
+    <div class="container">
+      <div class="left">
+        <h3>BILLING ADDRESS</h3>
+        <form>
+          Full name
+          <input type="text" name="" placeholder="Enter name" id="name" />
+          Email
+          <input type="text" name="" placeholder="Enter email" id="email" />
+
+          Address
+          <input type="text" name="" placeholder="Enter address" id="address" />
+
+          City
+          <input type="text" name="" placeholder="Enter City" id="city" />
+          <div id="zip">
+            <label>
+              State
+              <select id="value">
+                <option value="">Choose State..</option>
+                <option value="MH">Maharashtra</option>
+                <option value="BH">Bihar</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="MP">Madhya Pradesh</option>
+              </select>
+            </label>
+            <label>
+              Zip code
+              <input
+                type="number"
+                name=""
+                placeholder="Zip code"
+                id="zipcode"
+              />
+            </label>
+          </div>
+        </form>
+      </div>
+      <div class="right">
+        <h3>PAYMENT</h3>
+        <form class="formm">
+          Accepted Card <br />
+          <img
+            src="https://cdn.pixabay.com/photo/2016/04/01/11/00/bank-1300155__340.png"
+            width="100"
+          />
+          <img
+            src="https://cdn.pixabay.com/photo/2015/11/23/10/52/ec-1058106__340.png"
+            width="50"
+          />
+          <br /><br />
+
+          Credit card number
+          <input type="text" class="cardno" placeholder="0000 0000 0000 0000" />
+
+          Exp month
+          <input type="text" class="doc" placeholder="Enter Month" />
+          <div id="zip">
+            <label>
+              Exp year
+              <select>
+                <option>Choose Year..</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+              </select> </label
+            ><br />
+            <label>
+              CVV
+              <input type="number" class="cvv" placeholder="000" />
+            </label>
+          </div>
+          <input type="submit" class="btn" value="Proceed to Payment" />
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <!-- import footer here -->
+    </footer>
+  </body>
+</html>
+<script src="./scripts/checkout.js" type="module"></script>
