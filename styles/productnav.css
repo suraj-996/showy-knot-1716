@@ -1,5 +1,4 @@
 /* navabr css part */
-
 nav {
     height: 70px;
     width: 100%;
@@ -34,6 +33,8 @@ nav {
   a {
     margin: auto;
     margin-top: 20px;
+    text-decoration: none;
+    color: black;
   }
 
   /* footer part css */
