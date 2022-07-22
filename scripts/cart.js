@@ -119,4 +119,8 @@ function Paymentfun() {
   }
 }
 
+// count cart data length
+let cartData = JSON.parse(localStorage.getItem("cartDetail")) || [];
+let cart_length = cartData.length;
+document.querySelector(".cartItems").innerText = `(${cart_length})`;
 

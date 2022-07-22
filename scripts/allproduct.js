@@ -205,3 +205,9 @@ function disc(element) {
     localStorage.setItem("discription", JSON.stringify(allProducts));
     window.location.href = "./description.html";
 }
+
+
+//count cart data length
+let cartData = JSON.parse(localStorage.getItem("cartDetail")) || [];
+let length = cartData.length;
+document.querySelector(".cartItems").innerText = `(${length})`;

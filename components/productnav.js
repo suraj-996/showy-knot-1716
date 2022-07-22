@@ -9,7 +9,7 @@ function productPageNavbar() {
         /></a>
       </div>
       <div id="cart_login">
-        <a href="cart.html">Cart(0)</a>
+        <a href="cart.html">Cart<span class="cartItems">()</span></a>
         <a href="login.html">Log In</a>
       </div>
     </div>
