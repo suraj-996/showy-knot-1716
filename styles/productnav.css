@@ -1,0 +1,66 @@
+/* navabr css part */
+
+nav {
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  #navbar {
+    height: 70px;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  #logo_image,
+  #cart_login {
+    height: 70px;
+    width: 25%;
+    /* border: 1px solid red; */
+  }
+  #logo_image > a > img {
+    height: 70px;
+    text-align: center;
+    margin: auto;
+    /* margin-top: 20px; */
+    width: 100%;
+  }
+  #cart_login {
+    display: flex;
+    justify-content: space-between;
+  }
+  a {
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  /* footer part css */
+
+  footer {
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #292A2C;
+  }
+  .footerItems {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .footerItems>h2 {
+    margin: atuo;
+    color: #FFFFFF;
+    font-size: 14px;
+    /* margin-top: 20px; */
+  }
+  .footerItems + p {
+    text-align: center;
+    color: #9C9C9C;
+    font-size: 14px;
+  }
