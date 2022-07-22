@@ -136,7 +136,7 @@ search.addEventListener("keypress", function(event){
     if(event.key=="Enter"){
         event.preventDefault()
         let q=search.value;
-        const url = `https://script.google.com/macros/s/AKfycbwwseQXN0N_pwhpbi9GNjJlA2IWKmN02Vk7UDiuCGZB8QxBW07eSUelmHi9sn00LLf-/exec?title=${q}`;
+        const url = `https://script.google.com/macros/s/AKfycbzzFPhfhPFcmq-bjlqN5bTZKbVAJIN0kf5M3EpEXfkd-nwE7OfsA1kNlQblS-SI5auW/exec?title=${q}`;
         getData1(url).then((res)=>{
             console.log(res)
             append1(res, cont)
@@ -147,7 +147,7 @@ search.addEventListener("keypress", function(event){
     }
 })
 
-const url1 = `https://script.google.com/macros/s/AKfycbxdBtEBllHJHl-QmyQ8lZylC_hPpISQpoqUG1jE-Lv2YsNreC3RMFtJJHqClKiMXgK7/exec`;
+const url1 = `https://script.google.com/macros/s/AKfycbzvDB8lXFBN-yoNKxcK_xQUB7wXg8ct0pemezOaY4tmWwefxCsL4JR4xDibE-eq9ZRT/exec`;
 getData1(url1).then((res)=>{
     console.log(res)
     append1(res, cont)
