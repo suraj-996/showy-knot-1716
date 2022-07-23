@@ -47,7 +47,7 @@ function checkfun() {
     if (card.length == 19 && cvv.length == 3) {
       alert("Payment Successful");
 
-      window.location.href = "index.html";
+      window.location.href = "placeorder.html";
     } else {
       alert("Unable to Process");
     }

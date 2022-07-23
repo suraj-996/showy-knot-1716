@@ -12,7 +12,7 @@ let data={
 if(checkSignin(data.email,data.password)===true){
     localStorage.setItem("signin",JSON.stringify(data));
     alert("login successful")
-    // console.log(data)
+    localStorage.setItem("login_status", true)
     window.location.href="allproduct.html"
 }else{
     alert("wrong Username or Password")

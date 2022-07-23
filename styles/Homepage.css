@@ -15,12 +15,13 @@ body{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+ 
     /* border: 1px solid green; */
 }
 .cont_box1>div{
     width: 100%;
 }
- 
+
 .cont_box1>div>img{
     width: 100%;
     height: 100%;
@@ -33,7 +34,8 @@ body{
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 15vh;
+    /* margin-top: 25vh; */
+    padding: 20px;
 }
 .cont_box1>div:nth-child(1)>div>h1{
     font-size: 55px;
@@ -84,8 +86,11 @@ body{
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 15vh;
+     margin-top: 15vh;
+    
+    /* padding: 20px; */
     /* border: 1px solid teal; */
+    line-height: 30px;
 
 }
 

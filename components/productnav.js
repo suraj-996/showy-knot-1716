@@ -1,3 +1,15 @@
+let user = JSON.parse(localStorage.getItem("userData"))
+let login=localStorage.getItem("login_status")
+console.log(login);
+let name;
+if(login=="true"){
+  name=user[0].name
+}else{
+  name="Login"
+}
+console.log(name)
+
+
 function productPageNavbar() {
     return `<nav>
     <div id="navbar">
@@ -10,7 +22,7 @@ function productPageNavbar() {
       </div>
       <div id="cart_login">
         <a href="cart.html">Cart<span class="cartItems">()</span></a>
-        <a href="login.html">Log In</a>
+        <a href="login.html">${name}</a>
       </div>
     </div>
   </nav>`

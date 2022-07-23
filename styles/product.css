@@ -30,7 +30,7 @@ strong {
     color: #15372C;
     font: 18px;
 }
-#learn_more_button {
+.learn_more_button {
     color: #FFFFFF;
     background-color: #008561;
     font: 15px;
@@ -41,7 +41,7 @@ strong {
     border: none;
     margin: auto;
     margin-left: -300px;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 p {
     text-align: left;
@@ -50,7 +50,8 @@ p {
 }
 #para1 {
     color: #008561; 
-    font-size: 18px;
+    font-size: 15px;
+    padding-top: 30px;
 }
 #para2 {
     color: #15372C; 
@@ -60,8 +61,9 @@ p {
 h1 {
     color: #15372C; 
     font-size: 75px; 
+    line-height: 100px;
     text-align: left;
-    margin-top: -8px;
+    margin-top: 18px;
     font-family: "Untitled Serif",Georgia,serif;
 }
 h2 {
@@ -78,7 +80,7 @@ h2 {
     height: 200px;
     width: 80%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 250px;
     margin-bottom: 50px;
     /* border: 1px solid black; */
     align-items: center;

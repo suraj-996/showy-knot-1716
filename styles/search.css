@@ -88,7 +88,7 @@
 #job_data>div{
     padding-top: 50px;
     padding-bottom: 50px;
-    border-bottom: 1px solid #008561;;
+    border-bottom: 1px solid #008561;
 }
 #job_data>div>p:nth-child(1){
     font-size: 25px;
@@ -100,7 +100,7 @@
     margin-bottom: 15px;
 }
 #job_data>div>h3{
-    color: blue;
+    color:  #008561;
     padding-top: 5px;
     padding-bottom: 5px;
 

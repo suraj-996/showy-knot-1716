@@ -191,3 +191,14 @@ organizationList.map((element) => {
 import footer from "../components/footer.js";
 
 document.getElementById("foot").innerHTML=footer();
+
+let login=localStorage.getItem("login_status")
+console.log(login);
+document.querySelector(".learn_more_button").addEventListener("click", () =>{
+
+  if(login=="true"){
+    window.location.href="allproduct.html"
+  }else{
+    alert("First Login to Shop Product")
+  }
+})
