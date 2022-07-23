@@ -28,19 +28,22 @@
 #section>div>div:first-child>a{
     background-color: #3574d6;
     color: #fff;
-    border-radius: 25px;
+    border-radius: 30px;
     border: 1px solid #3574d6;
     display: inline-block;
     font-family: Untitled Sans,Arial,Helvetica,sans-serif;
     font-size: 1.6rem;
     line-height: 1;
     /* padding: 5px 5px 5px 5px ; */
-    padding: 12px 30px;
+    padding: 7px 10px;
     text-decoration: none;
     cursor: pointer;
     transition: all .15s ease;
     -webkit-appearance: none;
     margin-top: 50px;
+}
+#section>div>div:first-child>a:hover{
+    background-color: #2e65ba;
 }
 #section>div>div:last-child{
     width: 35%;

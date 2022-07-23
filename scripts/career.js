@@ -66,3 +66,7 @@ show4.addEventListener("click", () => {
 import footer from "../components/footer.js";
 
 document.getElementById("foot").innerHTML = footer();
+
+import chatbox from "../components/chatbox.js";
+
+document.getElementById("chatbox-wrapper").innerHTML=chatbox();
