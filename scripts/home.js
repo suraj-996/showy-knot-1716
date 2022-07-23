@@ -2,6 +2,9 @@ import navbar from "../components/navbar.js";
 
 document.getElementById('navbar').innerHTML=navbar();
 
+import chatbox from "../components/chatbox.js";
+
+document.getElementById("chatbox-wrapper").innerHTML=chatbox();
 
 
 let show1=document.getElementById("show1")
