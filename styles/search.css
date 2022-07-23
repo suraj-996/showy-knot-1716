@@ -99,6 +99,16 @@
     margin-top: 10px;
     margin-bottom: 15px;
 }
-#job_data>div>p:nth-child(3){
-    /* margin-bottom: 100px; */
+#job_data>div>h3{
+    color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+#sorting{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #0c7654;
+    color: #fff;
 }

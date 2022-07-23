@@ -41,7 +41,7 @@ data.map(function (el, index) {
   let name = document.createElement("p");
   name.innerText = el.name;
   let price = document.createElement("h3");
-  price.innerText = el.price;
+  price.innerText = `${el.price}`;
   namePriceBox.append(name, `$${price.innerText}`);
 
   let buttons = document.createElement("div");

@@ -29,7 +29,7 @@ displaydata.map(function (element) {
   currency.innerText = element.currency;
 
   let price = document.createElement("h2");
-  price.innerText = element.price;
+  price.innerText = `${element.price}`;
 
   let currency_price_box = document.createElement("div");
   currency_price_box.setAttribute("id", "currency_price_box");

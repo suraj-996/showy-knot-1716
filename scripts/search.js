@@ -138,8 +138,10 @@ search.addEventListener("keypress", function(event){
         let q=search.value;
         const url = `https://script.google.com/macros/s/AKfycbzzFPhfhPFcmq-bjlqN5bTZKbVAJIN0kf5M3EpEXfkd-nwE7OfsA1kNlQblS-SI5auW/exec?title=${q}`;
         getData1(url).then((res)=>{
-            console.log(res)
             append1(res, cont)
+            document.getElementById("sorting").addEventListener("change", () => {
+                sorting(res,cont)
+            })
         })
         let container=document.getElementById("search_result");
         container.style.height="0px";
@@ -149,9 +151,31 @@ search.addEventListener("keypress", function(event){
 
 const url1 = `https://script.google.com/macros/s/AKfycbzvDB8lXFBN-yoNKxcK_xQUB7wXg8ct0pemezOaY4tmWwefxCsL4JR4xDibE-eq9ZRT/exec`;
 getData1(url1).then((res)=>{
-    console.log(res)
     append1(res, cont)
+    document.getElementById("sorting").addEventListener("change", () => {
+        sorting(res,cont)
+    })
 })
+
+let sorting = (res,cont) => {
+    let selected=document.getElementById("sorting").value;
+    if(selected=="inc"){
+        res.sort(function(a,b){
+            if(a.title>b.title)return 1
+            if(a.title<b.title) return -1
+            return 0
+        })
+    }
+    if(selected=="des"){
+        res.sort(function(a,b){
+            if(a.title>b.title)return -1
+            if(a.then<b.title) return 1
+            return 0
+        })
+    }
+    console.log(res)
+    append1(res,cont)
+}
 
 let append1=(data,cont) => {
     cont.innerHTML="";
@@ -161,17 +185,17 @@ let append1=(data,cont) => {
         h3.innerText=title;
         let p=document.getElementById("career");
         p.innerText="Careers";
-        let p1=document.createElement("p");
-        p1.innerText=`Salary: ${salary}`;
-        let p2=document.createElement("p");
-        p2.innerText=`Experience: ${experience}`;
+        let p1=document.createElement("h3");
+        p1.innerText=`Salary : ${salary}`;
+        let p2=document.createElement("h3");
+        p2.innerText=`Experience : ${experience}`;
         let p3=document.createElement("p");
         p3.innerText=`${location}`;
         let p4=document.createElement("p");
-        p4.innerText=`Role: ${role}`;
+        p4.innerText=`Role : ${role}`;
         let des=document.createElement("p");
         des.innerText="Reporting directly to the Sales Director, EMEA, you will build and lead one of the most competitive divisions of our sales organization. You will strategically coach our team and work hands on with Account Executives to get the job done. You will also be a major driver of performance, coaching, and internal mobility for your team. You will be responsible for the success of our sales organization and the success of our company.";
-        div.append(h3,p3,des);
+        div.append(h3,p3,p1,p2,des);
         cont.append(div);
     })
 }
