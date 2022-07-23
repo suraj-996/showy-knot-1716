@@ -20,6 +20,7 @@ body{
 }
 .cont_box1>div{
     width: 100%;
+     
 }
 
 .cont_box1>div>img{
@@ -36,6 +37,8 @@ body{
     margin: auto;
     /* margin-top: 25vh; */
     padding: 20px;
+    
+    margin-top: 150px;
 }
 .cont_box1>div:nth-child(1)>div>h1{
     font-size: 55px;
@@ -90,7 +93,7 @@ body{
     
     /* padding: 20px; */
     /* border: 1px solid teal; */
-    line-height: 30px;
+    /* line-height: 30px; */
 
 }
 
@@ -101,7 +104,7 @@ body{
     margin-left: 5px;
 }
 .cont_box1>div:nth-child(3)>div>h1:nth-child(2){
-    margin-top: -20px;
+    margin-top: 10px;
 }
 .cont_box1>div:nth-child(3)>div>button{
     padding: 12px 40px;
@@ -182,7 +185,7 @@ border-bottom: none;
     margin-left: 5px;
 }
 .cont_box1>div:nth-child(6)>div>h1:nth-child(2){
-    margin-top: -20px;
+    margin-top: 10px;
 }
 .cont_box1>div:nth-child(6)>div>button{
     padding: 12px 40px;
