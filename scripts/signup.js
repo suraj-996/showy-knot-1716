@@ -19,7 +19,8 @@ form.addEventListener("submit", function(event){
         console.log(userData)
        // window.location.href="login.html";
     }else{
-        alert("Account Already Exists")
+        alert("Account Already Exists Plese Login")
+        window.location.href="signin.html"
     }
 })
 
