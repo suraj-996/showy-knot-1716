@@ -24,10 +24,10 @@ let navbar = () => {
         <div id="right-nav">
             <ul>
                 <li>
-                    <a href="#">Sign In</a>
+                    <a href="signin.html">Sign In</a>
                 </li>
                 <li>
-                    <a href="#">Sign Up</a>
+                    <a href="signup.html">Sign Up</a>
                 </li>
                 <li>
                     <button id="search-btn">
