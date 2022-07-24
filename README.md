@@ -1,6 +1,6 @@
 # greenhouse.io
 
-<h1> Unit 2 Project</h1>
+<h1> Unit 3 Project</h1>
 
 <h2>Team Members</h2>
 <br/>
