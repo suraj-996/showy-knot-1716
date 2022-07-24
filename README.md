@@ -17,26 +17,33 @@
 
 ### Some of the glimpses of our work
 
-#### `Landing Page`
-![img](https://github.com/suraj-996/)
+#### `Home Page`
+![img](https://github.com/suraj-996/showy-knot-1716/blob/main/photos/home.jpg)
 <br/>
 #### `Signup Page`
-![img](https://github.com/suraj-996/)
+![img](https://github.com/suraj-996/showy-knot-1716/blob/main/photos/signup.jpg)
 <br/>
-#### `Men Page`
-![img](https://github.com/suraj-996/)
+#### `Login Page`
+![img](https://github.com/suraj-996/showy-knot-1716/blob/main/photos/signin.jpg)
 <br/>
-#### `Women Page`
-![img](https://github.com/suraj-996/)
+#### `Career Page`
+![img](https://github.com/suraj-996/showy-knot-1716/blob/main/photos/career.jpg)
 <br/>
-#### `Shopping Bag Page`
-![img](https://github.com/suraj-996/)
+#### `Event Page`
+![img](https://github.com/suraj-996/showy-knot-1716/blob/main/photos/event.jpg)
+<br/>
+#### `Search Page`
+![img](https://github.com/suraj-996/showy-knot-1716/blob/main/photos/search.jpg)
+<br/>
+#### `Product Page`
+![img](https://github.com/suraj-996/showy-knot-1716/blob/main/photos/product1.jpg)
+<br/>
+#### `Product Page`
+![img](https://github.com/suraj-996/showy-knot-1716/blob/main/photos/product2.jpg)
+<br/>
+#### `Cart Page`
+![img](https://github.com/suraj-996/showy-knot-1716/blob/main/photos/cart.jpg)
 <br/>
 #### `Payment Page`
-![img](https://github.com/suraj-996/)
+![img](https://github.com/suraj-996/showy-knot-1716/blob/main/photos/payment.jpg)
 <br/>
-#### `Otp Page`
-![img](https://github.com/suraj-996/)
-<br/>
-#### `Ordered Page`
-![img](https://github.com/suraj-996/)
